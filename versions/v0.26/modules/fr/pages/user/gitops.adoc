@@ -77,7 +77,7 @@ repo-root/
 │── fleet/
 │   ├── providers/
 │   │   ├── core/
-│   │   |   ├── core.yaml  # Core `+CAPIProvider+` definition
+│   │   |   ├── core.yaml  # Core `CAPIProvider` definition
 │   │   |   ├── fleet.yaml # Fleet.yaml definition for the provider setup
 ----
 

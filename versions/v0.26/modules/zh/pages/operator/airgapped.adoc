@@ -306,7 +306,7 @@ git tag
 
 [source,console]
 ----
-export RELEASE_TAG=`+git describe --abbrev=0+`
+export RELEASE_TAG=`git describe --abbrev=0`
 ----
 
 设置您的私有储存库 URL，并替换为您的实际储存库：
@@ -365,7 +365,7 @@ git tag
 
 [source,console]
 ----
-export RELEASE_TAG=`+git describe --abbrev=0+`
+export RELEASE_TAG=`git describe --abbrev=0`
 ----
 
 设置您的私有储存库 URL，并替换为您的实际储存库：

@@ -306,7 +306,7 @@ oder automatisch das neueste Release auswählen:
 
 [source,console]
 ----
-export RELEASE_TAG=`+git describe --abbrev=0+`
+export RELEASE_TAG=`git describe --abbrev=0`
 ----
 
 Setzen Sie die URL Ihrer privaten Registry und ersetzen Sie sie durch Ihre tatsächliche Registry:
@@ -365,7 +365,7 @@ oder automatisch das neueste Release auswählen:
 
 [source,console]
 ----
-export RELEASE_TAG=`+git describe --abbrev=0+`
+export RELEASE_TAG=`git describe --abbrev=0`
 ----
 
 Setzen Sie die URL Ihrer privaten Registry und ersetzen Sie sie durch Ihre tatsächliche Registry:

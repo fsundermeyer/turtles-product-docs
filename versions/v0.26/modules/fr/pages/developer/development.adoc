@@ -36,7 +36,7 @@
 make dev-env
 
 # Or if you want to use a custom hostname for Rancher and your ngrok credentials
-NGROK_API_KEY=`+key+` NGROK_AUTHTOKEN=`+token+` RANCHER_HOSTNAME=my.customhost.dev make dev-env
+NGROK_API_KEY=`key` NGROK_AUTHTOKEN=`token` RANCHER_HOSTNAME=my.customhost.dev make dev-env
 ----
 +
 . Si vous ne disposez pas d'identifiants ngrok et ne les avez pas fournis lors de l'étape précédente, vous pouvez également ouvrir un nouveau terminal et démarrer ngrok ou inlets une fois que tilt a démarré :

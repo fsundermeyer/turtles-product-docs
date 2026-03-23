@@ -338,7 +338,7 @@ Bitte beachten Sie, dass das manuelle Entfernen von Finalisierern **erfordert**,
 ----
 export NAMESPACE=capi-clusters
 
-for RESOURCE in `+kubectl get-all -n $NAMESPACE -o name | grep 'cattle.io\|cluster.x-k8s.io'+`; 
+for RESOURCE in `kubectl get-all -n $NAMESPACE -o name | grep 'cattle.io\|cluster.x-k8s.io'`; 
 do 
         echo "Patching $RESOURCE in namespace $NAMESPACE";
         kubectl patch $RESOURCE -n $NAMESPACE -p '{"metadata":{"finalizers":[]}}' --type=merge;

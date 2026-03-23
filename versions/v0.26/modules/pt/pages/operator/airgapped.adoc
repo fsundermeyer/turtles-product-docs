@@ -306,7 +306,7 @@ ou selecionar automaticamente a versão mais recente:
 
 [source,console]
 ----
-export RELEASE_TAG=`+git describe --abbrev=0+`
+export RELEASE_TAG=`git describe --abbrev=0`
 ----
 
 Defina a URL do seu registro privado e substitua pela sua URL real:
@@ -365,7 +365,7 @@ ou selecionar automaticamente a versão mais recente:
 
 [source,console]
 ----
-export RELEASE_TAG=`+git describe --abbrev=0+`
+export RELEASE_TAG=`git describe --abbrev=0`
 ----
 
 Defina a URL do seu registro privado e substitua pela sua URL real:

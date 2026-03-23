@@ -306,7 +306,7 @@ git tag
 
 [source,console]
 ----
-export RELEASE_TAG=`+git describe --abbrev=0+`
+export RELEASE_TAG=`git describe --abbrev=0`
 ----
 
 プライベートレジストリのURLを設定し、実際のレジストリに置き換えます：
@@ -365,7 +365,7 @@ git tag
 
 [source,console]
 ----
-export RELEASE_TAG=`+git describe --abbrev=0+`
+export RELEASE_TAG=`git describe --abbrev=0`
 ----
 
 プライベートレジストリのURLを設定し、実際のレジストリに置き換えます：
